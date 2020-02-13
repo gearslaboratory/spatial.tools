@@ -1,0 +1,15 @@
+Package: spatial.tools
+Maintainer: Jonathan Asher Greenberg <spatial-tools@estarcion.net>
+License: GPL (>= 2)
+Title: R Functions for Working with Spatial Data
+Type: Package
+LazyLoad: yes
+Author: Jonathan Asher Greenberg
+Description: Spatial functions meant to enhance the core functionality of the
+    package "raster", including a parallel processing engine for use with
+    rasters.
+Imports: compiler,doParallel,foreach,iterators,mmap,raster,rgdal,sp,abind
+Suggests: randomForestSRC,randomForest 
+Version: 1.6.1
+Date: 2019-01-07
+RoxygenNote: 6.1.1
